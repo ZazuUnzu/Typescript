@@ -27,7 +27,7 @@ export class Telefonos {
         return `${this.tipo}: ${this.numero}`
     }
 
-    public listar (): void {
+    public listar (): void { //Función para imprimir el string que incluye el tipo y el número de cada registro teléfono.
         console.log (`- ${this.telefonoCompleto}`)
     }
 }

@@ -27,7 +27,7 @@ export class Email {
 
     }
 
-    public listar(): void {
+    public listar(): void { //Función para imprimir un string que recoge el tipo y el email de cada registro de email. 
         console.log(`- ${this.emailCompleto}`)
     }
 }

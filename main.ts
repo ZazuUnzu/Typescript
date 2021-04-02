@@ -27,11 +27,10 @@ persona2.imprimirPersona()
 
 persona3.imprimirPersona()
 
-let listaPersonas: Array<Persona> = [persona1, persona2, persona3]
-
+let listaPersonas: Array<Persona> = [persona1, persona2, persona3] // Declaramos e inicializamos el array de personas con los registros
 let personaBuscar: any
 
-for (let i in listaPersonas){
+for (let i in listaPersonas){ //Iteración para recorrer y buscar un DNI concreto en el array ListaPersonas, agregando una nueva dirección, teléfono y mail.
         if (listaPersonas[i].dni == '00011122F'){
             personaBuscar = listaPersonas[i];
             personaBuscar.direccion.push(new Direccion ('Nueva calle','20','Bajo','B',20000,'Nuevapoblación','Nuevaprovincia'));

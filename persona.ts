@@ -115,7 +115,7 @@ export class Persona {
         this._notas=value
     }
 
-    public imprimirPersona():void {
+    public imprimirPersona():void { //Función para imprimir en lista los valores de cada item persona en el programa principal.
         console.log(`-------------------------FICHA DE PERSONA--------------------------- \n`)
         console.log(`NOMBRE COMPLETO: ${this.nombreCompleto}`)
         console.log(`EDAD: ${this.edad} años`)
